@@ -15,15 +15,31 @@ public class Monster {
         readyToAtk = true ;
     }
 
+    public String getName(){
+        return name ;
+    }
+
+    public int getAtk() {
+        return atk;
+    }
+
+    public int getDef() {
+        return def;
+    }
+
+    public int getHp() {
+        return hp;
+    }
+
+    public int getMaxHp() {
+        return maxHp;
+    }
+
     public boolean isReadyToAtk(){
         return readyToAtk ;
     }
 
-    public void attack(Monster otherMonster){
-        otherMonster.attacked(otherMonster);
-    }
-
-    private void attacked(Monster otherMoster){
+    public void attack(Monster otherMoster){
         int damage ;
         damage = this.atk - otherMoster.def ;
         if (damage < 0 ){

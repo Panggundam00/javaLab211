@@ -2,10 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ee09ae74-0c67-4a4d-9b4d-d508e3c51551" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Classroom.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Monster.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/javaLab211/MainProgram.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/javaLab211/MainProgram.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/MainProgram.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MainProgram.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Monster.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Monster.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -51,7 +51,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Classroom">
+  <component name="RunManager" selected="Application.MainProgram">
     <configuration name="Classroom" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Classroom" />
       <module name="javaLab211" />
@@ -68,8 +68,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Classroom" />
         <item itemvalue="Application.MainProgram" />
+        <item itemvalue="Application.Classroom" />
       </list>
     </recent_temporary>
   </component>
