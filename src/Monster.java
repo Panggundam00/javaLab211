@@ -8,9 +8,18 @@ public class Monster {
 
     public Monster(String name, int hp, int atk, int def){
         this.name = name ;
+        if(hp < 1){
+            hp = 1 ;
+        }
         this.hp = hp ;
         this.maxHp = hp ;
+        if(atk < 0){
+            atk = 0 ;
+        }
         this.atk = atk ;
+        if(def < 0){
+            def = 0 ;
+        }
         this.def = def ;
         readyToAtk = true ;
     }
@@ -52,6 +61,9 @@ public class Monster {
     }
 
     public void heal(int restore){
+        if(restore < 0){
+            restore = 0 ;
+        }
         this.hp += restore ;
         if (this.hp > this.maxHp){
             this.hp = this.maxHp ;
